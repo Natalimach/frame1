@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat');
+
+
+body{
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Indie Flower', cursive;
+}
+h2{
+font-weight: bold;
+text-align: center;
+font-size:3em;}
+
+.ramka{
+  position: relative;
+  margin: 0 auto;
+  width: 500vw;
+  max-width: 800px;
+  min-width: 400px;
+  min-height:420px;
+}
+.content{
+  position: relative;
+  font-size: 2em;
+  padding: 90px;
+  text-align: center;
+}
+
+.u1, .u2, .u3, .u4{
+  background-image: url('https://mail.yandex.by/message_part/%D0%A1%D0%BB%D0%BE%D0%B9%204.png?_uid=1130000015502576&name=%D0%A1%D0%BB%D0%BE%D0%B9%204.png&hid=1.10&ids=164099911422315930&no_disposition=y&thumb=y');
+  background-repeat: no-repeat;
+  width: 190px;
+  height:190px;
+  background-size: contain;
+  position: absolute;
+}
+
+.u2{
+  
+  right: 0;  
+  transform: rotate(90deg);
+    }
+.u3{
+  
+   bottom: 0;
+   transform: rotate(-90deg)
+  
+  }
+
+.u4{
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg)
+}
+
+.border-left, .border-right{
+   background-image: url('https://mail.yandex.by/message_part/%D0%A1%D0%BB%D0%BE%D0%B9%205.png?_uid=1130000015502576&name=%D0%A1%D0%BB%D0%BE%D0%B9%205.png&hid=1.11&ids=164099911422315930&no_disposition=y&thumb=y');
+  top: 190px;
+  bottom: 190px;
+  width: 18px;
+  position: absolute;
+background-repeat:repeat-y;
+
+}
+ 
+  .border-left{
+    left:3px;
+}
+.border-right{
+ right: 3px;
+    }
+.border-top, .border-bottom{
+  position: absolute;
+  height: 18px;
+   left: 190px;
+  right: 190px;
+  background-image: url('https://mail.yandex.by/message_part/%D0%A1%D0%BB%D0%BE%D0%B9%207.png?_uid=1130000015502576&name=%D0%A1%D0%BB%D0%BE%D0%B9%207.png&hid=1.13&ids=164099911422315930&no_disposition=y&thumb=y');
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+  
+  .border-top{
+    top:3px;
+}
+.border-bottom{
+  bottom:3px;
+}
+.source{
+  font-size:2em;
+  text-align:center;
+  }
+
+
+.button-block{
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+#nextQuote{
+  position: absolute;
+  font-size: 1.5em;
+  text-align: center;
+  width: 360px;
+  color: black;
+  font-weight: 700;
+  border: 15px double black;
+  text-decoration: none;
+  padding: 10px 0;
+  margin-left: -180px;
+  left: 50%;
+  text-transform: uppercase;
+}
+a:link {
+    color: #8B008B;
+}
+a:visited {
+    color:#4B0082;
+}
+
+a:hover {
+    color:#3CB371;
+}
